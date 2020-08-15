@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Leave_Management-8C67CDDD-B343-421A-B013-37C90747AEBE")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Leave-Management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
