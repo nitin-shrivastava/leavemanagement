@@ -7,8 +7,10 @@ namespace Leave_Management.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateModified { get; set; }
+        [Display(Name = "Date Created")]
+        public DateTime? DateCreated { get; set; }
+        [Display(Name = "Date Modified")]
+        public DateTime? DateModified { get; set; }
     }
     public class CreateLeaveType
     {
